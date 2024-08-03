@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <title>jquery</title>
+    <style>
+        body{
+            background-color: gray;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: cornflowerblue;
+            font-weight: bold;
+            color: white;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            text-align: center;
+        }
+        header h1{
+            margin: 0;
+        }
+        #container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 1rem;
+        }
+        #controls{
+            display: flex;
+            justify-content: center;
+            gap: .5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>jQuery selectors</h1>
+    </header>
+    <div id="container">
+        <h2>Heading 1</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus alias perferendis mollitia aliquid aut a totam, ipsum tempora possimus soluta sed enim dolor hic esse vero deleniti tempore harum accusamus. <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere ea deleniti adipisci voluptatem exercitationem, ducimus ex fugiat maiores nobis aliquam necessitatibus maxime repudiandae ratione, aliquid saepe corrupti deserunt iste laboriosam.</span></p>
+        <h2>Heading 2</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus alias perferendis mollitia aliquid aut a totam, ipsum tempora possimus soluta sed enim dolor hic esse vero deleniti tempore harum accusamus. <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere ea deleniti adipisci voluptatem exercitationem, ducimus ex fugiat maiores nobis aliquam necessitatibus maxime repudiandae ratione, aliquid saepe corrupti deserunt iste laboriosam.</span></p>
+    </div>
+
+    <ul id="list">
+        <li>Lorem, ipsum11</li>
+        <li>Lorem, ipsum22</li>
+        <li>Lorem, ipsum33</li>
+        <li>Lorem, ipsum44</li>
+    </ul>
+    <div id="controls">
+        <button>toggle headers</button>
+        <button>color spans</button>
+    </div>
+    <script src="./script.js">
+        
+    </script>
+</body>
+</html>
