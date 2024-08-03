@@ -11,6 +11,7 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
+            padding-bottom: 2rem;
         }
         header{
             background-color: cornflowerblue;
@@ -34,11 +35,20 @@
             justify-content: center;
             gap: .5rem;
         }
+        #form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: .5rem;
+        }
+        #form button {
+            margin-top: 0.2rem;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>jQuery selectors</h1>
+        <h1>jQuery</h1>
     </header>
     <div id="container">
         <h2>Heading 1</h2>
@@ -57,8 +67,30 @@
         <button>toggle headers</button>
         <button>color spans</button>
     </div>
-    <script src="./script.js">
+    
+    <div id="form">
+        <h2>input events</h2>
+        <div>
+            <span>Name: </span>
+            <input type="text">
+            <span class="msg"></span>
+        </div>
+        <div>
+            <span>Email: </span>
+            <input type="text">
+            <span class="msg"></span>
+        </div>
+
+        <select id="dropdown" name="dropdown">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+        </select>
         
-    </script>
+        <button>Submit</button>
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="./events.js"></script>
 </body>
 </html>
