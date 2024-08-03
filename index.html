@@ -64,10 +64,30 @@
         <li>Lorem, ipsum44</li>
     </ul>
     <div id="controls">
-        <button>toggle headers</button>
-        <button>color spans</button>
+        <button id="prependLi">prepend li</button>
+        <button id="appendLi">append li</button>
+        <button id="beforeDemo">before method demo</button>
+        <button id="afterDemo">after method demo</button>
     </div>
-    
+
+    <label>
+        <input type="checkbox" id="subscribe" name="subscribe">
+        Checkbox event demo
+    </label>
+    <p id="checkbox-msg"></p>
+
+    <h4>Radio event demo:</h4>
+    <label>
+        <input type="radio" name="color" value="Red"> Red
+    </label>
+    <label>
+        <input type="radio" name="color" value="Green"> Green
+    </label>
+    <label>
+        <input type="radio" name="color" value="Blue"> Blue
+    </label>
+    <p id="radio-msg"></p>
+
     <div id="form">
         <h2>input events</h2>
         <div>
@@ -90,7 +110,12 @@
         <button>Submit</button>
     </div>
 
+    <h3>
+        animations
+    </h3>
+
     <script src="./script.js"></script>
     <script src="./events.js"></script>
+    <script src="./dom-manipulations.js"></script>
 </body>
 </html>
