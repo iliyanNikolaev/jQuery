@@ -1,0 +1,9 @@
+$('#btnFadeOut').click(function(){
+    $('#box').fadeOut('slow');
+})
+$('#btnFadeIn').click(function(){
+    $('#box').fadeIn('slow');
+})
+$('#btnFadeToggle').click(function(){
+    $('#box').fadeToggle('slow');
+})

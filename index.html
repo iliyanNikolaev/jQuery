@@ -44,6 +44,12 @@
         #form button {
             margin-top: 0.2rem;
         }
+        #box{
+            display: flex;
+            align-items: center;
+            background-color: lightblue;
+            justify-content: center;
+        }
     </style>
 </head>
 <body>
@@ -114,8 +120,16 @@
         animations
     </h3>
 
+    <div id="box"><h2>Hello world</h2></div>
+
+    <div>
+        <button id="btnFadeOut">fadeOut</button>
+        <button id="btnFadeIn">fadeIn</button>
+        <button id="btnFadeToggle">fadeToggle</button>
+    </div>
     <script src="./script.js"></script>
     <script src="./events.js"></script>
     <script src="./dom-manipulations.js"></script>
+    <script src="./animations.js"></script>
 </body>
 </html>
